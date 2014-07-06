@@ -14,4 +14,4 @@ WORKDIR /data/redis
 
 EXPOSE 6379
 
-ENTRYPOINT /redis/bin/redis-server
+ENTRYPOINT /redis/bin/redis-server --bind 0.0.0.0
